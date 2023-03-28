@@ -4,7 +4,7 @@ import { StyleSheet, Text, View } from "react-native";
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Testing Expo App continuous deployment and github action</Text>
+      <Text>Testing Expo App Github Action</Text>
       <StatusBar style="auto" />
     </View>
   );

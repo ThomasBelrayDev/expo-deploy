@@ -21,10 +21,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.thomasbelraydev.geslubdeploytest"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "fe9dbf24-cd37-4928-a140-341b317e41d6"
+      }
+    },
+    "owner": "thomasbelraydev",
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/fe9dbf24-cd37-4928-a140-341b317e41d6"
     }
   }
 }
